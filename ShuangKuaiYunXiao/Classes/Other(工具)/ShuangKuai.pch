@@ -1,0 +1,23 @@
+//
+//  ShuangKuai.pch
+//  ShuangKuaiYunXiao
+//
+//  Created by yuzhongkeji on 2017/5/3.
+//  Copyright © 2017年 yuzhongkeji. All rights reserved.
+//
+
+#ifndef ShuangKuai_pch
+#define ShuangKuai_pch
+
+
+/// 控制器头文件
+#import "SKNavigationViewController.h"
+
+
+/// 导航栏文字大小
+#define KNavTitleFont 16 *KMatch
+
+/// 屏幕适配系数
+#define KMatch [UIScreen mainScreen].bounds.size.width / 320
+
+#endif /* ShuangKuai_pch */
